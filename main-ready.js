@@ -68,7 +68,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // If you need more explanations, go to https://github.com/zimny-lech/CyTube-Plus/wiki/FAQ
 
-UI_DefaultSynchtube = 1;	// default old Synchtube layout (player and playlist on the left)
+UI_DefaultSynchtube = 0;	// default old Synchtube layout (player and playlist on the left)
 UI_Favicon = 1;			// [&] channel favicon
 UI_MiniLogo = 1;		// [&] small channel logo/avatar in the top navbar
 UI_ChannelName = 1;		// [&] channel custom brand name
@@ -80,23 +80,23 @@ UI_MOTDDelete = 0;		// deleting previous MOTD after accepting/loading script
 UI_RulesBtn = 0;		// [&] button displaying channel rules
 UI_AttentionBar = 0;		// [&] imageboard-style attention bar (requires external application)
 UI_ChannelAnnouncement = 0;	// [&] additional custom channel announcement
-UI_FullTitleBar = 1;		// full-width video title bar
-UI_ProgressBar = 1;		// YouTube/Dailymotion progress bar
+UI_FullTitleBar = 0;		// full-width video title bar
+UI_ProgressBar = 0;		// YouTube/Dailymotion progress bar
 				// [ REQUIRE: UI_FullTitleBar enabled ]
 UI_TitleIcon = 1;		// [&] full-width title bar icon
 				// [ REQUIRE: UI_FullTitleBar enabled ]
 UI_TitleBarDescription = 1;	// [&] custom title bar description (default "Currently Playing:")
-UI_JoinText = 1;		// [&] chat message after user joining
+UI_JoinText = 0;		// [&] chat message after user joining
 UI_LeaveText = 1;		// [&] chat message after user leaving
 UI_UserCommands = 1;		// [&] additional commands in the chat window
 UI_UserMarks = 0;		// [&] special signs/avatars before every message for defined users
 UI_Squavatars = 0;		// automatic squavatars (2-colored square avatars) before every message
 				// [ REQUIRE: UI_UserMarks enabled ]
-UI_UsernameMark = 1;		// [&] custom mark after username (default ":")
+UI_UsernameMark = 0;		// [&] custom mark after username (default ":")
 UI_MessagesSuffix = 0;		// [&] text added to random chat messages
-UI_CustomPingSound = 1;		// [&] custom sound for chat notifications
+UI_CustomPingSound = 0;		// [&] custom sound for chat notifications
 UI_SoundFilters = 0;		// [&] chat sounds played after sending certain words
-UI_ChatSpeak = 1;		// text speaking after '!say' and '!mow' commands (english and polish)
+UI_ChatSpeak = 0;		// text speaking after '!say' and '!mow' commands (english and polish)
 UI_IndependentEmotes = 0;	// [&] additional settings-independent emotes
 UI_IndependentFilters = 1;	// [&] additional settings-independent filters
 UI_FontsBtn = 0;		// button displaying box with clickable chat fonts
@@ -109,11 +109,11 @@ UI_GroupEmotes = 1;		// [&] emotes panel pagination, display limited number of e
 UI_CommandsBtn = 1;		// button displaying modal window with chat commands help
 UI_ModPanel = 0;		// [&] panel with messages and help for moderators
 UI_CustomCaptions = 0;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
-UI_PlayerOptions = 1;		// [&] additional player options
-UI_TransformationBtns = 1;	// player transformation buttons
+UI_PlayerOptions = 0;		// [&] additional player options
+UI_TransformationBtns = 0;	// player transformation buttons
 UI_ChannelDatabase = 0;		// [&] box with embed additional media database
 UI_ChannelGalleries = 0;	// [&] box with embed galleries
-UI_DisplayModeSel = 1;		// selector with player display modes
+UI_DisplayModeSel = 0;		// selector with player display modes
 UI_ChannelTheme = 0;		// [&] additional default channel theme
 UI_EmbeddingMedia = 1;		// [&] possibility to embedding (displaying) images and .webm videos on the chat
 UI_MediaControls = 1;		// embedded video preloaded controls
